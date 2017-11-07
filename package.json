@@ -1,0 +1,40 @@
+{
+  "name": "cantagal",
+  "version": "1.0.0",
+  "description": "Cantagal Website",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --port 7000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljachmann/cantagal.git"
+  },
+  "keywords": [
+    "cantagal"
+  ],
+  "author": "Michael Jachmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeljachmann/cantagal/issues"
+  },
+  "homepage": "https://github.com/michaeljachmann/cantagal#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "css-loader": "^0.28.7",
+    "exports-loader": "^0.6.4",
+    "node-sass": "^4.6.0",
+    "postcss-loader": "^2.0.8",
+    "precss": "^2.0.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
